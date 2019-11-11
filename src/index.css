@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input {
+  height: 20px;
+  width: 200px;
+  margin: 5px;
+  border: 1px solid #dad6d6;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn-add-post {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.posts {
+  margin: 20px auto;
+  width: 60vw;
+}
+
+.post-card {
+  border-radius: 5px;
+  border: 1px solid #dad6d6;
+  padding: 10px;
+  margin: 10px auto;
+}
